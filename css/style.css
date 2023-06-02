@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6, li
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.btn
+{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    padding: 10px 10px;
+}
+
+p
+{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.active
+{
+    color: green !important;
+}
+
+.carousel-item
+{
+    height: 550px;
+
+}
+
+
+.sBox
+{
+    background-color: white;
+    padding: 15px;
+    float: left;
+    margin-right: 15px;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+
+
+.sBoxLink
+{
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.sBoxLink a 
+{
+    text-decoration: none;
+    color: green;
+    font-weight: 500;
+}
+
+.sBoxLink a i 
+{
+    margin-left: 5px;
+    color: green;
+}
+
+.card:hover
+{
+    cursor: pointer;
+    background-color: green;
+    border-color: green;
+    transition: all 0.3s;
+}
+
+.card:hover h5 
+{
+    color: white !important;
+}
+
+.card:hover p
+{
+    color: white !important;
+}
+
+.card:hover a
+{
+    color: white !important;
+}
+
+.card:hover i
+{
+    color: white !important;
+}
+
+.card-active
+{
+    background-color: green !important;
+    color: white !important;
+    border-color: green;
+}
+
+.card-active h2 
+{
+    color: white;
+}
+.card-activee p 
+{
+    color: white;
+}
+
+
+.card-active a 
+{
+    color: white;
+}
+.card-active i 
+{
+    color: white !important;
+}
+
+.zoom-img
+{
+    width: 100%;
+    transition: all 0.3s linear;
+
+}
+
+.zoom-img:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
