@@ -26,6 +26,22 @@ h1, h2, h3, h4, h5, h6, li
     padding: 10px 10px !important;
 }
 
+.custor-btn
+{
+    color: white !important;
+    background: #016eaf !important;
+    border: 1px solid #016eaf !important;
+
+}
+
+.custor-btn:hover
+{
+    color: white !important;
+    background: #e71b24 !important;
+    border: 1px solid #e71b24 !important;
+
+}
+
 
 p
 {
@@ -35,7 +51,7 @@ p
 
 .active
 {
-    color: green !important;
+    color: #e71b24 !important;
 }
 
 .carousel-item
@@ -67,21 +83,21 @@ p
 .sBoxLink a 
 {
     text-decoration: none;
-    color: green;
+    color: #e71b24;
     font-weight: 500;
 }
 
 .sBoxLink a i 
 {
     margin-left: 5px;
-    color: green;
+    color: #e71b24;
 }
 
 .card-normal:hover
 {
     cursor: pointer;
-    background-color: green;
-    border-color: green;
+    background-color: #e71b24;
+    border-color: #e71b24;
     transition: all 0.3s;
 }
 
@@ -107,9 +123,9 @@ p
 
 .card-active
 {
-    background-color: green !important;
+    background-color: #e71b24 !important;
     color: white !important;
-    border-color: green;
+    border-color: #e71b24;
 }
 
 .card-active h2 
@@ -197,7 +213,7 @@ p
     height: 28px;
     display: block;
     overflow: hidden;
-    background-color: green;
+    background-color: #e71b24;
     border-radius: 100%;
     display: grid;
     place-items: center;
@@ -245,4 +261,122 @@ p
 
 }
 
+
+
+
+
+/* ------------------now overly start------------------------*/
+
+
+
+.test-box 
+{
+    position: relative;
+}
+   
+.slide 
+{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #e71b24;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: 0.5s ease;
+}
+  
+.test-box:hover .slide 
+{
+    bottom: 0;
+    height: 100%;
+}
+  
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.test-2-box 
+{
+    position: relative;
+}
+   
+.slide-2 
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #e71b24;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: 0.5s ease;
+}
+  
+.test-box-2:hover .slide-2 
+{
+    top: 0;
+    height: 100%;
+}
+
+.test-box-3 
+{
+    position: relative;
+}
+   
+.slide-3 
+{
+    position: absolute;
+    right: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: #e71b24;
+    overflow: hidden;
+    transition: 0.5s ease;
+    height: 100%;
+    width: 0;
+}
+  
+.test-box-3:hover .slide-3 
+{
+    right: 0;
+    width: 100%;
+}
+  
+.test-box-4 
+{
+    position: relative;
+}
+   
+.slide-4 
+{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: #e71b24;
+    overflow: hidden;
+    transition: 0.5s ease;
+    height: 100%;
+    width: 0;
+}
+  
+.test-box-4:hover .slide-4 
+{
+    left: 0;
+    width: 100%;
+}
+  
 
