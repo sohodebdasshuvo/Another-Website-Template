@@ -290,7 +290,7 @@ p
 .test-box:hover .slide-1 
 {
     bottom: 0;
-    height: 20%;
+    height: 100%;
 }
   
 .text {
@@ -446,4 +446,7 @@ p
   .right {
     display: none;
   }
+
+
+
 }
